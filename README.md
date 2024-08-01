@@ -5,13 +5,14 @@ This is an applicaton built using the time box method, one of the most popular t
 - [Installation](installation)
 - [User Story](#user-story)
 - [Acceptance Critera](acceptance-criteria)
-- [Technologies Used](technologies-used)
 - [Resources](resources)
 - [License](license)
 
 ## Installation
 
-
+- React (https://create-react-app.dev/)
+- React Bootstrap (https://react-bootstrap.netlify.app/)
+- TypewriterJS v2 (https://www.npmjs.com/package/typewriter-effect)
 
 ## User Story
 ````
@@ -28,10 +29,6 @@ Enter Acceptance Criteria Here
 
 
 ````
-
-## Technologies Used
-
-
 
 ## Resources
 
