@@ -1,24 +1,17 @@
 import React from 'react';
 import './App.css';
-import Typewriter from 'typewriter-effect';
-
+import Title from './components/Title';
+import WorkArea from './components/Timebox/WorkArea';
 
 export default function App() {
   return (
+    <>
     <div className="App">
       <header className="App-header">
-        <div className="apptitle">
-          <Typewriter
-            onInit={(typewriter) => {
-            typewriter.typeString('Welcome to Timebox!')
-            .pauseFor(2500)
-            .deleteAll()
-            typewriter.typeString('Start Your Productivity Below')
-            .start();
-            }}
-          />
-        </div>
+          <Title/>
+          <WorkArea/>
       </header>
     </div>
+    </>
   );
 }
